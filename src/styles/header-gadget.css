@@ -1,0 +1,44 @@
+.versal-section-header-content {
+  box-sizing: border-box;
+  height: 37px;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.versal-section-header-content input {
+  border: none;
+  box-shadow: none;
+  color: #524e47;
+  display: block;
+  font: bold 18px 'AvenirNextLTPro-Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 21px;
+  line-height: 21px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.versal-section-header-content input[readonly] {
+  background: white;
+  cursor: default;
+}
+
+.versal-section-header-content input::-ms-clear {
+  display: none;
+}
+
+.versal-section-header-content input:focus {
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+  outline: none;
+}
+
+.versal-section-header-fadeout {
+  background: linear-gradient(to right, rgba(255,255,255,0) 0%, white 75%);
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+}

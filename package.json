@@ -1,0 +1,40 @@
+{
+  "name": "@versal/sdk-gadget",
+  "version": "0.1.2",
+  "description": "Versal's SDK placeholder gadget",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/versal/frontend-sdk-gadget"
+  },
+  "author": "Versal engineering",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/versal/frontend-sdk-gadget/issues"
+  },
+  "homepage": "https://github.com/versal/frontend-sdk-gadget",
+  "scripts": {
+    "dev": "rimraf dist && *:watch",
+    "build": "rimraf dist && webpack -p",
+    "build:watch": "webpack -d --watch",
+    "test": "echo no tests in this repo",
+    "test:watch": "echo no tests in this repo",
+    "pretest": "standard",
+    "prepublish": "yarn build",
+    "lint": "standard"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/versal-sdk-gadget.js",
+  "devDependencies": {
+    "@versal/config-helpers": "^1.0.3",
+    "babel-eslint": "^7.2.3",
+    "babel-register": "^6.24.1",
+    "rimraf": "^2.6.1",
+    "standard": "^10.0.2",
+    "webpack": "^3.4.1"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
