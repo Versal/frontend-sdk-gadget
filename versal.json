@@ -4,5 +4,5 @@
   "name": "sdk",
   "title": "SDK placeholder gadget",
   "description": "A placeholder gadget for dropping unpublished, local gadgets into a lesson",
-  "exec": "publicQuiz"
+  "exec": "quiz"
 }
